@@ -8,8 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 VANTA.WAVES({
   el: "#vanta-bg",
-  mouseControls: true,
-  touchControls: true,
   color: 0x2563eb, // nebula blue
   shininess: 50,
   waveHeight: 20,
