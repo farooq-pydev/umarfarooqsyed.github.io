@@ -14,8 +14,9 @@ document.addEventListener("mousemove", e => {
 
 VANTA.WAVES({
   el: "#bg-animation",
-  mouseControls: true,
-  touchControls: true,
+  mouseControls: false,
+  touchControls: false,
+  gyroControls: false,
   color: 0x2563eb,
   shininess: 50,
   waveHeight: 20,
