@@ -75,3 +75,9 @@ nav a, button {
   background: #f9fafb;
   color: #111;
 }
+
+ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
