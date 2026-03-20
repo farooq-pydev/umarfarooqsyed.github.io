@@ -5,7 +5,6 @@ body {
   background: #0f172a;
 }
 
-/* BACKGROUND */
 #bg {
   position: fixed;
   width: 100%;
@@ -13,12 +12,10 @@ body {
   z-index: -1;
 }
 
-/* CONTAINER */
 .container {
   padding: 20px;
 }
 
-/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -33,7 +30,6 @@ nav a, button {
   cursor: pointer;
 }
 
-/* HERO */
 .hero {
   text-align: center;
   margin-top: 60px;
@@ -45,13 +41,11 @@ nav a, button {
   box-shadow: 0 0 20px #2563eb;
 }
 
-/* CARDS */
 .card {
   max-width: 800px;
   margin: 40px auto;
   padding: 25px;
   border-radius: 12px;
-
   background: rgba(255,255,255,0.05);
   backdrop-filter: blur(12px);
 
@@ -65,19 +59,18 @@ nav a, button {
   transform: translateY(0);
 }
 
-/* PROJECTS */
-#repos div {
-  margin-top: 10px;
-}
-
-/* LIGHT MODE */
-.light {
-  background: #f9fafb;
-  color: #111;
-}
-
 ul {
   padding-left: 20px;
   line-height: 1.8;
 }
 
+footer {
+  text-align: center;
+  margin-top: 50px;
+  opacity: 0.7;
+}
+
+.light {
+  background: #f9fafb;
+  color: #111;
+}
