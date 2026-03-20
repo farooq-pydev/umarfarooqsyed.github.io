@@ -1,135 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Syed Umar Farooq | Python Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syed Umar Farooq | Backend Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Vanta -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 </head>
-<body  id="vanta-bg">
-<div id="bg-animation"></div>
-<div class="content">
-  <header>
-  <nav>
-    <h2>Syed Umar Farooq</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
 
-<section class="hero">
-  <div class="profile">
-  <img src="your-photo.jpg" alt="Profile">
-  <h1>Syed Umar Farooq</h1>
-  <p>Python Backend Developer</p>
-</div>
-</section>
+<body>
+  <div id="bg"></div>
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    Python Developer with 4+ years of experience building scalable backend systems
-    using Django, Flask, and FastAPI. Experienced in REST API design, database
-    optimization, authentication systems, and AWS cloud deployments.
-  </p>
-</section>
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <h2>Farooq</h2>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <button id="themeToggle">🌙</button>
+      </nav>
+    </header>
 
-<section id="skills">
-  <h2>Technical Skills</h2>
-  <div class="skills-grid">
-    <div>
-      <h3>Backend</h3>
-      <p>Python, Django, FastAPI, Flask</p>
-    </div>
-    <div>
-      <h3>Databases</h3>
-      <p>MySQL, PostgreSQL</p>
-    </div>
-    <div>
-      <h3>Cloud & DevOps</h3>
-      <p>AWS (EC2, IAM), Docker, Git, CI/CD</p>
-    </div>
-    <div>
-      <h3>Tools</h3>
-      <p>Postman, Selenium, Celery, Ansible, Zabbix</p>
-    </div>
-  </div>
-</section>
+    <!-- HERO -->
+    <section class="hero">
+      <img src="profile.jpg" alt="profile"/>
+      <h1 id="typing"></h1>
+      <p>Building scalable backend systems & APIs</p>
+    </section>
 
-<section id="experience">
-  <h2>Professional Experience</h2>
+    <!-- ABOUT -->
+    <section class="card reveal" id="about">
+      <h2>About</h2>
+      <p>
+        Python Developer with 4+ years of experience in Django, FastAPI, and AWS.
+        Focused on scalable backend systems, API design, and performance optimization.
+      </p>
+    </section>
 
-  <div class="card">
-    <h3>Python Developer – E2InfoSystems Pvt. Ltd.</h3>
-    <p>Dec 2025 – Present | Chennai</p>
-    <ul>
-      <li>Developed IP webcam streaming application using MediaMTX.</li>
-      <li>Built UI pages to control cameras and recordings.</li>
-      <li>Designed APIs to communicate with MediaMTX servers.</li>
-    </ul>
+    <!-- SKILLS -->
+    <section class="card reveal" id="skills">
+      <h2>Skills</h2>
+      <p>Python • Django • FastAPI • PostgreSQL • AWS • Docker</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="card reveal" id="projects">
+      <h2>Projects</h2>
+      <div id="repos"></div>
+    </section>
+
+    <footer>
+      <p>© 2026 Syed Umar Farooq</p>
+    </footer>
   </div>
 
-  <div class="card">
-    <h3>Software Developer II – TechTale Innovations</h3>
-    <p>Mar 2025 – Aug 2025 | Chennai</p>
-    <ul>
-      <li>Developed backend services using FastAPI and Django.</li>
-      <li>Designed optimized REST APIs.</li>
-      <li>Implemented authentication and role-based access control.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Software Developer – VVDN Technologies</h3>
-    <p>Jul 2021 – Feb 2025 | Chennai</p>
-    <ul>
-      <li>Built enterprise web applications using Django and Flask.</li>
-      <li>Developed licensing and authentication modules.</li>
-      <li>Optimized SQL queries for performance.</li>
-    </ul>
-  </div>
-
-</section>
-
-<section id="projects">
-  <h2>Key Projects</h2>
-
-  <div class="card">
-    <h3>Circuit Camera Module</h3>
-    <p>Python | FastAPI | MediaMTX</p>
-  </div>
-
-  <div class="card">
-    <h3>Unified Dashboard</h3>
-    <p>FastAPI | Real-time APIs | Database Optimization</p>
-  </div>
-
-  <div class="card">
-    <h3>Edge Manager – Inseego 5G Net</h3>
-    <p>Django | Flask | Licensing System | Deployment Automation</p>
-  </div>
-
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: farooq.pydev@gmail.com</p>
-  <p>Phone: +91 8919618795</p>
-  <p>LinkedIn: linkedin.com/in/syed-umar-farooq-8156aa270</p>
-</section>
-
-<footer>
-  <p>© 2026 Syed Umar Farooq</p>
-</footer>
-
-</div>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
