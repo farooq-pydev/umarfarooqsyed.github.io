@@ -75,7 +75,7 @@ footer {
 }
 
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   width: 300px;
@@ -84,7 +84,7 @@ body::before {
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: 0.1s;
-}
+} */
 
 .profile img {
   width: 140px;
